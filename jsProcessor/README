@@ -19,5 +19,5 @@ python jsProcessor.py 'settings.xml'
 
 /* jsProcessor.php */
 
-Kinda the same but just with php. Uses Douglas Crockford's (old PHP minifier)
+Kinda the same but just with php. Uses Douglas Crockford's (old) PHP minifier
 Fire up a local PHP server and just head to the page in your browser

@@ -17,7 +17,7 @@
                 
     </loadorder>
     
-    <!-- Der Name des zusammengepackten Skripts -->
+    <!-- Name of packed script -->
     <outputfile path="payload.js" /> 
 
 
