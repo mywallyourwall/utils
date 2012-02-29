@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsprocessor>
+    
+    <version>1.0</version>
+    
+    <!-- Path to JS Files - No spaces in the directory names or the files --> 
+    <directory path="test/" />
+    
+
+	
+    <!-- Files to be compressed in order -->    
+    <loadorder>
+        <file>test1.js</file>
+        <file>test2.js</file>
+		<file>test3.js</file>
+        <file>test4.js</file>
+                
+    </loadorder>
+    
+    <!-- Der Name des zusammengepackten Skripts -->
+    <outputfile path="payload.js" /> 
+
+
+    <!-- debugversion 
+       on (true|false) - 
+        true = no compressions - comments stay in
+        false = comments will be taken out and everything compressed into one file
+       file optional name of a debug script which will be added to the payload for testing. this file has to live in the same directory as your js files
+        
+    --> 
+    <debugversion on="true" file=""/>
+
+    <!-- jsdoc 
+        on (true|false) - 
+        true = jsdocs will be generated :)
+    --> 
+    <jsdoc on="false" />
+    
+</jsprocessor>
+
+
+

@@ -1,0 +1,21 @@
+(function(){alert("test1")})();(function(){alert("test2")})();(function(){alert("test3")})();(function(){alert("test4")})();
+;
+(function(){
+  alert('test4');
+}());
+;
+(function(){
+  alert('test1');
+}());
+;
+(function(){
+  alert('test2');
+}());
+;
+(function(){
+  alert('test3');
+}());
+;
+(function(){
+  alert('test4');
+}());

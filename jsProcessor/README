@@ -1,0 +1,23 @@
+/* jsProcessor.py */
+
+This little script packs together and compresses a list of js files. For more information see settings.xml
+
+Works on Windows and Macs etc
+
+Dependencies:
+
+- JAVA (for the closure compiler)
+- Python (for the python script!)
+
+At least the JAVA path should be in your environment variables
+
+1. change the settings in your xml file
+
+2. run from command line:
+python jsProcessor.py 'settings.xml'
+
+
+/* jsProcessor.php */
+
+Kinda the same but just with php. Uses Douglas Crockford's (old PHP minifier)
+Fire up a local PHP server and just head to the page in your browser
